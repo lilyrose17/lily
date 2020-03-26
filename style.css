@@ -1,0 +1,47 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+h1 {
+	font-size: 3rem;
+	color:#b3d7ff ;
+}
+hr{
+background-color: #c332bd;
+border-width: 5px;
+max-width: 500px
+
+}
+.btn{
+	font-weight: 700;
+	border-right: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary{
+background-color:#2c6e79;
+border-color:#2c6e79;
+}
+.btn-primary:hover{
+	background-color: #c332bd;
+	border-color: #c332bd;
+	border-width:  10px;
+}
+.buffer{
+	height:10rem;
+}
+/* chyba ma powiekszać ale nie mam pojecia o co chodzi 
+.btn-xl{
+	padding: 1rem 2rem;
+
+}
+*/
